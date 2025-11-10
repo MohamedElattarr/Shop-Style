@@ -3,21 +3,21 @@ import React, { useState, useEffect } from 'react';
 // يمكنك استبدال هذه بمسارات صورك الفعلية، ونص وعنوان كل شريحة، ورابط الزر
 const slides = [
   { 
-    url: 'src/assets/dong-xie-BxI3wtR2RWk-unsplash.jpg', 
+    url: 'https://images.unsplash.com/photo-1732257119998-b66cda63dcfc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEhvb2RpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500', 
     title: 'Beauty & Wellness', 
     description: 'Elevate your style with our premium fashion collection for every occasion',
     buttonText: 'Explore Collection',
     buttonLink: '/products'
   },
   { 
-    url: 'src/assets/l-s-R0LzhF574gU-unsplash.jpg', 
+    url: 'https://plus.unsplash.com/premium_photo-1673356302169-574db56b52cd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SG9vZGllc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500', 
     title: 'Fresh Arrivals', 
     description: 'Discover the latest trends in fashion and accessories.',
     buttonText: 'Shop New Arrivals',
     buttonLink: '/products'
   },
   { 
-    url: 'src/assets/pinho-GCAnKZM21_c-unsplash.jpg', 
+    url: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500', 
     title: 'Seasonal Sale', 
     description: 'Don\'t miss out on our amazing discounts!',
     buttonText: 'View Sale',

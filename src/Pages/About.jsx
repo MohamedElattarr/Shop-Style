@@ -21,7 +21,7 @@ const AboutPage = () => {
         <div className="relative overflow-hidden rounded-xl shadow-2xl h-80">
             {/* Replace the URL with an actual ShopStyle image */}
             <img 
-                src="src/assets/anto-fredric-JKDCc-7k1vg-unsplash.jpg" 
+                src="https://plus.unsplash.com/premium_photo-1694476790742-8e95108c4b52?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGphY2tldHMlMjB3YWxscGFwZXIlMjB3aWRlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" 
                 alt="Our Vision" 
                 className="w-full h-full object-cover transition duration-500 hover:scale-105"
             />

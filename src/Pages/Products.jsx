@@ -8,46 +8,46 @@ import Alert from '../Components/Alert'; // 🆕 استيراد مكوّن ال�
 
 // 💡 Mock Data: Replace this with data fetched from an API or Redux store
 const featuredItems = [
-  { 
+   { 
     id: 1, 
     name: "Classic Leather Satchel", 
     price: 129.99, 
-    image: "src/assets/tobias-tullius-Fg15LdqpWrs-unsplash (1).jpg", 
+    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFja2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/1" 
   },
   { 
     id: 2, 
     name: "Ceramic Coffee Mug Set", 
     price: 34.99, 
-    image: "src/assets/pinho-GCAnKZM21_c-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1499971856191-1a420a42b498?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500", 
     link: "/product/4" 
   },
   { 
     id: 3, 
     name: "Classic Leather Satchel", 
     price: 129.99, 
-    image: "src/assets/tobias-tullius-Fg15LdqpWrs-unsplash (1).jpg", 
+    image: "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM1fHxjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500", 
     link: "/product/1" 
   },
   { 
     id: 4, 
     name: "Minimalist Gold Watch", 
     price: 89.50, 
-    image: "src/assets/cgxl-media-92_tCTr9rtw-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/2" 
   },
   { 
     id: 5, 
     name: "Minimalist Gold Watch", 
     price: 89.50, 
-    image: "src/assets/adrian-ordonez-P0W27GRvyww-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/2" 
   },
   { 
     id: 6, 
     name: "Organic Cotton Hoodie", 
     price: 55.00, 
-    image: "src/assets/cgxl-media-92_tCTr9rtw-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1618354691551-44de113f0164?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/3" 
   },
   
@@ -55,42 +55,42 @@ const featuredItems = [
     id: 7, 
     name: "Classic Leather Satchel", 
     price: 129.99, 
-    image: "src/assets/tobias-tullius-Fg15LdqpWrs-unsplash (1).jpg", 
+    image: "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/1" 
   },
   { 
     id: 8, 
     name: "Minimalist Gold Watch", 
     price: 89.50, 
-    image: "src/assets/adrian-ordonez-P0W27GRvyww-unsplash.jpg", 
+    image: "https://plus.unsplash.com/premium_photo-1675186049366-64a655f8f537?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/2" 
   },
   { 
     id: 9, 
     name: "Organic Cotton Hoodie", 
     price: 55.00, 
-    image: "src/assets/cgxl-media-92_tCTr9rtw-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1548883354-94bcfe321cbb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGphY2tldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500", 
     link: "/product/3" 
   },
   { 
     id: 10, 
     name: "Ceramic Coffee Mug Set", 
     price: 34.99, 
-    image: "src/assets/pinho-GCAnKZM21_c-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1706765779494-2705542ebe74?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGphY2tldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500", 
     link: "/product/4" 
   },
   { 
     id: 11, 
     name: "Minimalist Gold Watch", 
     price: 89.50, 
-    image: "src/assets/adrian-ordonez-P0W27GRvyww-unsplash.jpg", 
+    image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amFja2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/2" 
   },
   { 
     id: 12, 
     name: "Minimalist Gold Watch", 
     price: 89.50, 
-    image: "src/assets/cgxl-media-92_tCTr9rtw-unsplash.jpg", 
+    image: "https://plus.unsplash.com/premium_photo-1674719144570-0728faf14f96?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFja2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/2" 
   },
 ];
