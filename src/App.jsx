@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider } from 'react-router'
-import NavBar from './navBar'
+import NavBar from './NavBar.jsx'
 import Footer from './Footer'
 import Home from "./Pages/Home.jsx"
 import About from './Pages/About.jsx'
