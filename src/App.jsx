@@ -1,7 +1,7 @@
 import React from 'react'
 import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider } from 'react-router'
 import NavBar from './NavBar.jsx'
-import Footer from './Footer'
+import Footer from './Footer.jsx'
 import Home from "./Pages/Home.jsx"
 import About from './Pages/About.jsx'
 import Contact from './Pages/Contact.jsx'

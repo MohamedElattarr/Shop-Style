@@ -130,7 +130,7 @@ const FeaturedProducts = () => {
       
       {/* Section Header */}
       <h2 className="text-4xl font-extrabold text-center text-gray-900 dark:text-gray-600 mb-12">
-         Featured Products
+        Products
       </h2>
       
       {/* Products Grid */}
@@ -192,16 +192,7 @@ const FeaturedProducts = () => {
         ))}
       </div>
       
-      {/* View All Button */}
-      <div className="text-center mt-12">
-        <a 
-          href="/products" 
-          className="inline-block px-10 py-3 text-lg font-semibold border-2 border-pink-600 text-pink-600 rounded-full 
-                     hover:bg-pink-600 hover:text-white transition-colors duration-300"
-        >
-          View All Products
-        </a>
-      </div>
+     
     </section>
   );
 };

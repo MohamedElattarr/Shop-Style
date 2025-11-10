@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import Cart from './Pages/Cart';
 
 const Navbar = () => {
   const cartCount = useSelector(state => state.cart.totalQuantity);
