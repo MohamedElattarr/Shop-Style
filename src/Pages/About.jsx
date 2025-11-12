@@ -83,7 +83,7 @@ const AboutPage = () => {
           Explore our curated collection and start your journey toward expressing your unique style.
         </p>
         <a 
-          href="/shop" 
+          href="/products" 
           className="inline-block px-8 py-3 bg-pink-600 text-white text-lg font-semibold rounded-full 
                      hover:bg-pink-700 transition-colors duration-300 shadow-lg"
         >

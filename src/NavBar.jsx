@@ -56,10 +56,10 @@ const Navbar = () => {
         <div className="flex items-center space-x-3 md:order-2 rtl:space-x-reverse">
 
 {/* Existing Heart Icon Button */}
-<NavLink to="/wishlist" className="relative text-gray-400 hover:text-white p-2.5 rounded-lg">
+{/* <NavLink to="/wishlist" className="relative text-gray-400 hover:text-white p-2.5 rounded-lg ">
     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 19l-7.318-7.318a4.5 4.5 0 010-6.364z"/></svg>
     {/* 🆕 Badge للمفضلة */}
-    {wishlistCount > 0 && (
+    {/* {wishlistCount > 0 && (
       <span className="absolute top-0 right-0 transform translate-x-1/4 -translate-y-1/4 
                      inline-flex items-center justify-center 
                      h-4 w-4 text-xs font-bold leading-none text-white 
@@ -67,12 +67,12 @@ const Navbar = () => {
           {wishlistCount} 
       </span>
     )}
-</NavLink>
+</NavLink>  */}
 
 {/* 🛒 Cart Button with Relative Positioning */}
 
 <NavLink to="/cart"
-className="relative text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg p-2.5">
+className="relative text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg p-2.5 ">
     {/* SVG for Cart */}
     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zM8 20a2 2 0 11-4 0 2 2 0 014 0z" />

@@ -93,6 +93,27 @@ const featuredItems = [
     image: "https://plus.unsplash.com/premium_photo-1674719144570-0728faf14f96?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFja2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
     link: "/product/2" 
   },
+  { 
+    id: 13, 
+    name: "Minimalist Gold Watch", 
+    price: 89.50, 
+    image: "https://plus.unsplash.com/premium_photo-1674719144570-0728faf14f96?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFja2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
+    link: "/product/2" 
+  },
+  { 
+    id: 14, 
+    name: "Minimalist Gold Watch", 
+    price: 89.50, 
+    image: "https://plus.unsplash.com/premium_photo-1674719144570-0728faf14f96?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFja2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
+    link: "/product/2" 
+  },
+  { 
+    id: 15, 
+    name: "Classic Leather Satchel", 
+    price: 129.99, 
+    image: "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGNsb3RoaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500", 
+    link: "/product/1" 
+  },
 ];
 
 const FeaturedProducts = () => {
@@ -134,7 +155,7 @@ const FeaturedProducts = () => {
       </h2>
       
       {/* Products Grid */}
-      <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
+      <div className="grid grid-cols-2 gap-6 md:grid-cols-5 md:gap-8">
         {featuredItems.map((product) => (
           
           /* Single Product Card */
@@ -155,7 +176,9 @@ const FeaturedProducts = () => {
             </a>
             
             {/* Product Details */}
-            <div className="p-4 flex flex-col items-center text-center">
+            
+
+            <div className="p-4  flex flex-col items-center text-center">
               
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1 truncate w-full">
                 {product.name}
@@ -168,24 +191,16 @@ const FeaturedProducts = () => {
               {/* Add to Cart Button */}
               <button 
                 // 💡 In a real app, this would trigger an addToCart function
-                className="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 
-                           font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 
-                           dark:focus:ring-blue-800 transition-colors"
-                           onClick={() => handleAddToCart(product)}
-              >
+                className="w-full  text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 
+                font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 
+                dark:focus:ring-blue-800 transition-colors"
+                onClick={() => handleAddToCart(product)}
+                >
                 Add to Cart
               </button>
-              <button 
-                    onClick={(e) => { e.preventDefault(); handleToggleWishlist(product); }}
-                    className="absolute top-3 right-3 p-2 bg-gray-900 rounded-full shadow-lg transition-colors hover:bg-gray-900"
-                >
-                    <svg className={`w-6 h-6 ${isProductLiked(product.id) ? 'text-pink-600 fill-pink-600' : 'text-gray-400'}`} 
-                         fill={isProductLiked(product.id) ? 'currentColor' : 'none'} 
-                         stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
-                              d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 19l-7.318-7.318a4.5 4.5 0 010-6.364z"/>
-                    </svg>
-                </button>
+            
+              
+                          
               
             </div>
           </div>
